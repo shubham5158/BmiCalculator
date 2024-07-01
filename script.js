@@ -11,11 +11,11 @@ function bmi() {
 
     let bmimessge = "";
     if (result < 18.6) {
-      bmimessge = "Underweight";
+      bmimessge = "Under weight";
     } else if (result >= 18.6 && result <= 24.9) {
       bmimessge = "Normal weight";
     } else if (result > 24.9) {
-      bmimessge = "Overweight";
+      bmimessge = "Over weight";
     }
 
     results.innerHTML = `<span>Your BMI is ${result}, ${bmimessge}<span>`;
